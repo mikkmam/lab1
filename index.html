@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title> M I K K A </title>
+		<link rel="icon" href="https://www.pinclipart.com/picdir/big/13-134310_clip-art-details-clip-art-coffee-bean-png.png" sizes="16x16">
+		<style>
+			.Project {
+			  position: absolute;
+			  top: 20%;
+			  left: 50%;
+			  -webkit-transform: translate(50%, 50%);
+			          transform: translate(50%, 50%);
+			  width: 20px;
+			  height: 20px;
+			}
+			.Project:hover .imgMasked {
+			  -webkit-clip-path: circle(100px at center);
+			          clip-path: circle(100px at center);
+			}
+			.Project:hover .Project-hail2 {
+			  width: 200px;
+			  height: 200px; 
+			  border-radius: 200px;
+			  border: 80px solid #4a120f;
+			  opacity: 0;
+			}
+
+			.Project-hail2 {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			          transform: translate(-50%, -50%);
+			    width: 0;
+				height: 0;
+				border-radius: 0;  
+			  -webkit-transition: 0.7s;
+			  transition: 0.7s;
+			}
+
+			.imgMasked {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  -webkit-transform: translate(-50%, -50%);
+			          transform: translate(-50%, -50%);
+			  top: 50%;
+			  height: 200px;
+			  -webkit-clip-path: circle(100px at center);
+			          clip-path: circle(100px at center);
+			  opacity: 1;
+			}
+			.overlay {
+			  position: absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			}
+			.Project:hover .overlay {
+			  opacity: 1;
+			}
+
+			.Project-name {
+			  position: absolute;
+			  top: 37%;
+			  left: 31.5%;
+			  color: #4a120f; 
+			  font-size: 80px
+			}
+
+			.Project-body {
+			  position: absolute;
+			  top: 48%;
+			  left: 6%;
+			  color: #000000;
+			  font-size: 25px;
+			  margin-right: 100px;
+			  margin-left: 70px;
+			  word-spacing: 8px;
+			  text-align: center;
+			  line-height: 40px;
+			}
+			body {
+		  		background-image: url("https://lh3.googleusercontent.com/proxy/MILeYulxqCl_jJ8g6CVAfooOuzQ8Ac_0M3c4auJ9alIhaTyO2i1Gc7pbOOeM5stfHRS-0JwVow61Hvqfb7ZQ5ceKClokUXmJSWZm3g2oh9UWZyW07UN8fqNyEsXrwmOBgnua-KT2");
+				}
+			</style>
+	</head>
+	<body> 
+		<div class="Project">
+		  <div class="Project-hail2"></div>
+		  <img src="D:\Sublime Text 3\MUNOZ\mikka.jpg" alt="" class="imgMasked" />
+  		<div class="overlay">
+		  <img src="D:\Sublime Text 3\MUNOZ\mikka2.jpg" alt="" class="imgMasked" />
+		  </div>
+		</div>
+		<div>
+			<div class="Project-name">
+				<font face="Avocado Creamy"> I N T R O D U C T I O N </font>
+		</div>
+		<div>
+			<div class="Project-body">
+				<p><font face="Bahnschrift Condensed"> My name is Mikkaela Angela Coronado Muñoz. Everyone calls me "Mikka". I am nineteen years old. My hobbies are playing MOBA, role-playing, and other different games. I also love to watch movies, series, and clips from the social media. I have interest in dancing and streaming.
+				</font></p>
+				<p><font face="Bahnschrift Condensed"> I graduated senior high school from Asia Pacific College and I continued 		college there as a Information Technology student specializes mobile and internet. What inspired me to learn IT is because I want to expand more my knowledge when it comes to the world of technology.
+				</font></p>
+		    </div>
+		</div>
+	</body>
+</html>
